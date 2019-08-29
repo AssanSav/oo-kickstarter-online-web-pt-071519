@@ -3,6 +3,6 @@ attr_reader :name
   
   def initialize(name)
     @name = name 
-    @backed_projects = []
+    @backers = []
   end
 end
