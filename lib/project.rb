@@ -8,6 +8,6 @@ attr_reader :title, :backers
   
   def add_backer(backer)
     @backers << backer 
-    backer.ba
+    backer.backed_projects << self
   end
 end
