@@ -5,4 +5,5 @@ attr_reader :title, :backers
     @title = title
     @backers = []
   end
+  
 end
